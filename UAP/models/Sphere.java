@@ -14,7 +14,7 @@ public class Sphere extends Shape implements ThreeDimensional, PiRequired, MassC
 
     @Override
     public double getVolume() {
-        return (4.0 / 3) * PI * Math.pow(radius, 3);
+        return (4.0 / 3) * PI * radius * radius * radius;
     }
 
     @Override
